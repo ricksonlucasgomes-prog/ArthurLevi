@@ -7,16 +7,16 @@ const Footer = () => {
 
   const footerLinks = {
     quickLinks: [
-      { label: 'About', href: '#about' },
-      { label: 'Achievements', href: '#achievements' },
-      { label: 'Stats', href: '#stats' },
-      { label: 'Gallery', href: '#gallery' }
+      { label: 'Sobre', href: '#about' },
+      { label: 'Conquistas', href: '#achievements' },
+      { label: 'Estatísticas', href: '#stats' },
+      { label: 'Galeria', href: '#gallery' }
     ],
     legal: [
-      { label: 'Privacy Policy', href: '#' },
-      { label: 'Terms of Service', href: '#' },
-      { label: 'Media Kit', href: '#' },
-      { label: 'Press Releases', href: '#' }
+      { label: 'Política de Privacidade', href: '#' },
+      { label: 'Termos de Serviço', href: '#' },
+      { label: 'Kit de Mídia', href: '#' },
+      { label: 'Comunicados de Imprensa', href: '#' }
     ]
   };
 
@@ -38,8 +38,9 @@ const Footer = () => {
               <Logo className="h-16" />
             </div>
             <p className="text-lg leading-relaxed mb-6 text-secondary-foreground/80 max-w-md">
-              Following the journey of a rising soccer star dedicated to excellence, 
-              teamwork, and inspiring the next generation of players.
+              
+Acompanhando a jornada de uma estrela do futebol em ascensão, dedicada à excelência,
+ao trabalho em equipe e à inspiração para a próxima geração de jogadores.
             </p>
             
             {/* Contact Info */}
@@ -50,7 +51,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-primary" />
-                <span>+1 (555) 123-4567</span>
+                <span>+55 62 9 9434-9416</span>
               </div>
             </div>
           </div>
@@ -58,7 +59,7 @@ const Footer = () => {
           {/* Quick Links */}
           <div>
             <h3 className="text-lg font-semibold mb-6 text-secondary-foreground">
-              Quick Links
+              Links
             </h3>
             <ul className="space-y-3">
               {footerLinks.quickLinks.map((link, index) => (
@@ -77,7 +78,7 @@ const Footer = () => {
           {/* Legal Links */}
           <div>
             <h3 className="text-lg font-semibold mb-6 text-secondary-foreground">
-              Resources
+              Recursos
             </h3>
             <ul className="space-y-3">
               {footerLinks.legal.map((link, index) => (
@@ -98,19 +99,19 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-secondary-foreground/20">
           <div className="max-w-2xl mx-auto text-center">
             <h3 className="text-2xl font-bold mb-4 text-secondary-foreground">
-              Stay Updated
+              Acompanhe as Novidades
             </h3>
             <p className="text-secondary-foreground/70 mb-6">
-              Subscribe to get the latest updates on Arthur's matches, achievements, and journey.
+              Inscreva-se para receber as últimas atualizações sobre as partidas, conquistas e a jornada de Arthur.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-              <input 
-                type="email" 
-                placeholder="Enter your email"
+              <input
+                type="email"
+                placeholder="Digite seu email"
                 className="flex-1 px-4 py-3 rounded-lg bg-background text-foreground border border-border focus:outline-none focus:ring-2 focus:ring-primary"
               />
               <button className="btn-hero px-6 py-3 whitespace-nowrap">
-                Subscribe
+                Inscrever-se
               </button>
             </div>
           </div>
@@ -123,7 +124,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             {/* Copyright */}
             <div className="text-secondary-foreground/60 text-sm">
-              © {currentYear} Arthur Levi. All rights reserved. Built with passion for the beautiful game.
+              © {currentYear} Arthur Levi. Todos os direitos reservados. Construído com paixão pelo belo jogo.
             </div>
 
             {/* Social Links */}

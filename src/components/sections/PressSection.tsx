@@ -3,36 +3,7 @@ import { ExternalLink, Download, Calendar, Eye } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const PressSection = () => {
-  const pressFeatures = [
-    {
-      outlet: "Soccer Weekly Magazine",
-      title: "Rising Star: Arthur Levi's Journey to Excellence",
-      date: "March 10, 2024",
-      type: "Feature Article",
-      excerpt: "An in-depth look at the 16-year-old sensation who's capturing the attention of scouts nationwide.",
-      logo: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=100&h=50&fit=crop",
-      link: "#"
-    },
-    {
-      outlet: "Local Sports Network",
-      title: "Young Talent Leads Team to Regional Championship",
-      date: "February 28, 2024",
-      type: "Video Interview",
-      excerpt: "Arthur discusses his winning mentality and future aspirations in professional soccer.",
-      logo: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=100&h=50&fit=crop",
-      link: "#"
-    },
-    {
-      outlet: "Youth Soccer Today",
-      title: "Top 10 Players to Watch in 2024",
-      date: "January 15, 2024",
-      type: "Rankings",
-      excerpt: "Arthur Levi ranks #3 in the annual list of most promising youth soccer players.",
-      logo: "https://images.unsplash.com/photo-1432821596592-e2c18b78144f?w=100&h=50&fit=crop",
-      link: "#"
-    }
-  ];
-
+  const pressFeatures = [];
   const mediaStats = [
     { label: "Media Mentions", value: "47", period: "This Year" },
     { label: "Video Views", value: "125K", period: "Total" },
@@ -45,11 +16,10 @@ const PressSection = () => {
       <div className="container-custom">
         <div className="text-center mb-16 fade-in-up">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gradient">
-            In the Spotlight
+            Em destaque
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Arthur's journey has captured the attention of sports media, journalists, 
-            and soccer enthusiasts across the region.
+           A jornada (Complementar)
           </p>
         </div>
 
@@ -134,35 +104,35 @@ const PressSection = () => {
             <div className="text-center">
               <Download className="w-16 h-16 mx-auto mb-6 text-primary" />
               <h3 className="text-2xl font-bold mb-4 text-foreground">
-                Download Press Kit
+                Download Kit de Fotos, Vídeos e Biografia
               </h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Complete media package including high-resolution photos, 
-                biography, statistics, and recent achievements.
+                Pacote de mídia completo, incluindo fotos de alta resolução,
+                biografia, estatísticas e conquistas recentes.
               </p>
               
               <div className="space-y-3 mb-6 text-sm text-muted-foreground">
                 <div className="flex justify-between">
-                  <span>High-res photos</span>
+                  <span>Fotos de alta resolução</span>
                   <span>25 images</span>
                 </div>
                 <div className="flex justify-between">
-                  <span>Player biography</span>
-                  <span>PDF format</span>
+                  <span>Biografia do jogador</span>
+                  <span>Formato em PDF</span>
                 </div>
                 <div className="flex justify-between">
-                  <span>Statistics sheet</span>
-                  <span>Current season</span>
+                  <span>Folha de estatísticas</span>
+                  <span>Temporada atual</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Logo & branding</span>
-                  <span>Vector files</span>
+                  <span>Arquivos vetoriais</span>
                 </div>
               </div>
               
               <Button className="btn-hero w-full">
                 <Download className="w-5 h-5 mr-2" />
-                Download Press Kit
+                Download Kit de Fotos, Vídeos e Biografia
               </Button>
             </div>
           </div>
@@ -172,30 +142,30 @@ const PressSection = () => {
             <div className="text-center">
               <Eye className="w-16 h-16 mx-auto mb-6 text-primary" />
               <h3 className="text-2xl font-bold mb-4 text-foreground">
-                Media Inquiries
+                Mídia
               </h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                For interviews, photo requests, or additional information, 
-                please contact our media relations team.
+                Para entrevistas, solicitações de fotos ou informações adicionais,
+                entre em contato com nossa equipe de relações com a mídia.
               </p>
               
               <div className="space-y-4 mb-6 text-left">
                 <div className="p-4 bg-muted rounded-lg">
-                  <div className="font-medium text-foreground">Media Contact</div>
-                  <div className="text-sm text-muted-foreground">Sarah Johnson</div>
+                  <div className="font-medium text-foreground">Contato de Mídia</div>
+                  <div className="text-sm text-muted-foreground">Pessoa</div>
                   <div className="text-sm text-muted-foreground">media@arthurlevi.com</div>
-                  <div className="text-sm text-muted-foreground">+1 (555) 123-4567</div>
+                  <div className="text-sm text-muted-foreground">+55 62 9 9434-9416</div>
                 </div>
                 
                 <div className="p-4 bg-muted rounded-lg">
-                  <div className="font-medium text-foreground">Response Time</div>
-                  <div className="text-sm text-muted-foreground">Same day for urgent requests</div>
-                  <div className="text-sm text-muted-foreground">24-48 hours for standard inquiries</div>
+                  <div className="font-medium text-foreground">Tempo de Resposta</div>
+                  <div className="text-sm text-muted-foreground">Mesmo dia para solicitações urgentes</div>
+                  <div className="text-sm text-muted-foreground">24-48 horas </div>
                 </div>
               </div>
               
               <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary/10">
-                Contact Media Team
+                Contatar a Equipe de Mídia
               </Button>
             </div>
           </div>

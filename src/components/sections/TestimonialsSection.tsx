@@ -1,28 +1,28 @@
 import React from 'react';
-import { Quote, Star } from 'lucide-react';
+import { Link, Quote, Star } from 'lucide-react';
 
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "Treinador Martinez",
-      role: "Treinador Principal, Academia Regional",
-      content: "Em meus 20 anos como treinador, raramente vi um jogador com a combinação de habilidade técnica e inteligência de jogo de Arthur. Ele tem potencial para jogar nos mais altos níveis.",
+      name: "Depoimento 1",
+      role: "Nome",
+      content: ".",
       rating: 5,
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face"
+      image: (<Link/>)
     },
     {
-      name: "Sarah Chen",
-      role: "Jornalista Esportiva, Soccer Weekly",
-      content: "Arthur Levi é o tipo de jogador que faz você parar o que está fazendo para assistir. Sua visão e criatividade com a bola estão além de sua idade. Uma verdadeira estrela em ascensão.",
+      name: "Depoimento 2",
+      role: "Nome",
+      content: "",
       rating: 5,
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face"
+      image: (<Link/>)
     },
     {
-      name: "David Thompson",
-      role: "Ex-Jogador Profissional",
-      content: "Arthur me lembra de mim mesmo naquela idade - faminto, dedicado e sempre buscando melhorar. A diferença é seu talento natural. Este garoto é especial.",
+      name: "Depoimento 3",
+      role: "Nome",
+      content: "",
       rating: 5,
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face"
+      image: (<Link/>)
     }
   ];
 
@@ -65,11 +65,11 @@ const TestimonialsSection = () => {
 
               {/* Author */}
               <div className="flex items-center space-x-4">
-                <img 
+                <img></img>
                   src={testimonial.image} 
                   alt={testimonial.name}
                   className="w-12 h-12 rounded-full object-cover shadow-elegant"
-                />
+                /
                 <div>
                   <div className="font-semibold text-foreground">
                     {testimonial.name}
